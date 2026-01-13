@@ -41,12 +41,14 @@ Notification: If Predicted_Cost > Threshold, an alert is fired through SNS.
 1. AI Prediction Engine
 The optimizer_ai.py script analyzes the trend and outputs the forecasted spend.
 
-Insert your screenshot of the terminal showing the AI prediction output here
+<img width="794" height="192" alt="Screenshot 2026-01-13 at 2 25 29 PM" src="https://github.com/user-attachments/assets/0be25bb5-d44e-4a8d-b327-4bf9af60f874" />
 
 2. Automated Email Alert
 When the threshold is breached, the system sends an immediate notification via Amazon SNS.
 
-Insert your screenshot of the "AWS Cost Optimizer Alert" email here
+"AWS Cost Optimizer Alert" 
+<img width="1438" height="559" alt="Screenshot 2026-01-13 at 2 53 47 PM" src="https://github.com/user-attachments/assets/8dda265c-1aa8-488f-9d36-4e86e08cf7f5" />
+
 
 ### 🚀 How to Use
 Prerequisites
