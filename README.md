@@ -37,6 +37,10 @@ Forecasting: The model predicts the total cost for the current month.
 
 Notification: If Predicted_Cost > Threshold, an alert is fired through SNS.
 
+To ensure high availability and scalability, the project follows a serverless architecture deployed via Terraform.
+![AWS Cost AI Optimizer Architecture](<img width="930" height="208" alt="Screenshot 2026-01-13 at 3 24 45 PM" src="https://github.com/user-attachments/assets/f054f984-5bf8-4b5e-98f7-f47daeeb0e88" />)
+
+
 ### 📸 Proof of Concept
 1. AI Prediction Engine
 The optimizer_ai.py script analyzes the trend and outputs the forecasted spend.
@@ -46,7 +50,7 @@ The optimizer_ai.py script analyzes the trend and outputs the forecasted spend.
 2. Automated Email Alert
 When the threshold is breached, the system sends an immediate notification via Amazon SNS.
 
-"AWS Cost Optimizer Alert" 
+![AWS Cost Optimizer Alert]
 <img width="1438" height="559" alt="Screenshot 2026-01-13 at 2 53 47 PM" src="https://github.com/user-attachments/assets/8dda265c-1aa8-488f-9d36-4e86e08cf7f5" />
 
 
