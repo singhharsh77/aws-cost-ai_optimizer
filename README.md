@@ -1,4 +1,4 @@
-### 🚀 AWS Cost AI Optimizer
+# 🚀 AWS Cost AI Optimizer
 A serverless MLOps pipeline that transforms reactive cloud budgeting into proactive forecasting. This tool automates the ingestion of AWS Cost Explorer data into an S3 Data Lake, trains a Scikit-Learn time-series model via AWS Lambda, and performs automated inference to predict end-of-month spend. By integrating Infrastructure as Code (Terraform) with Amazon SNS, the system provides real-time observability and intelligent alerting, ensuring budget thresholds are never breached without notice.
 
 ### 🎯 Project Overview
