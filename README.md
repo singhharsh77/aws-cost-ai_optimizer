@@ -47,7 +47,7 @@ To ensure high availability and scalability, the project follows a serverless ar
 The optimizer_ai.py script analyzes the trend and outputs the forecasted spend.
 
 <img width="794" height="192" alt="Screenshot 2026-01-13 at 2 25 29 PM" src="https://github.com/user-attachments/assets/0be25bb5-d44e-4a8d-b327-4bf9af60f874" />
-
+<br>
 2. Automated Email Alert
 When the threshold is breached, the system sends an immediate notification via Amazon SNS.
 
