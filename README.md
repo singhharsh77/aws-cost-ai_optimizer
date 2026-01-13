@@ -52,7 +52,7 @@ The optimizer_ai.py script analyzes the trend and outputs the forecasted spend.
 When the threshold is breached, the system sends an immediate notification via Amazon SNS.
 
 - AWS Cost Optimizer Alert
-<img width="1438" height="559" alt="Screenshot 2026-01-13 at 2 53 47 PM" src="https://github.com/user-attachments/assets/8dda265c-1aa8-488f-9d36-4e86e08cf7f5" />
+<img width="1438" height="559" alt="Screenshot 2026-01-13 at 2 53 47 PM" src="https://github.com/user-attachments/assets/1e41db42-02f1-4733-94c1-94eb9f37f9fb" />
 
 
 ### 🚀 How to Use
